@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/RodrigodeSouzaTeixeira/Azure%20DevOps%20Hands-on%20Training/_apis/build/status%2Frodrigost.mslearn-tailspin-spacegame-web?branchName=main)](https://dev.azure.com/RodrigodeSouzaTeixeira/Azure%20DevOps%20Hands-on%20Training/_build/latest?definitionId=4&branchName=main)
 
 # Contributing
 
