@@ -39,6 +39,7 @@ steps:
 - template: templates/build.yml
   parameters:
     buildConfiguration: 'Debug'
+  enabled: false
 
 - template: templates/build.yml
   parameters:
