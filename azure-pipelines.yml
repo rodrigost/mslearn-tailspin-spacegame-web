@@ -12,6 +12,7 @@ pool:
   - npm
 
 variables:
+  buildConfiguration: Release
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
   dotnetSdkVersion: '6.x'
 
@@ -49,7 +50,7 @@ steps:
 
 - template: templates/build.yml
   parameters:
-    buildConfiguration: 'Release'
+    buildConfiguration: '$(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
   displayName: 'Install .NET tools from local manifest'
