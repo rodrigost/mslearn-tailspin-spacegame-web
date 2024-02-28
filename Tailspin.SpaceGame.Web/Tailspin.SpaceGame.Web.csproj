@@ -8,12 +8,14 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\avatars\" />
   </ItemGroup>
+
   <ItemGroup>
     <Content Remove="SampleData\profiles.json" />
     <Content Remove="SampleData\scores.json" />
     <Content Remove="SampleData\profiles.json" />
     <Content Remove="SampleData\scores.json" />
   </ItemGroup>
+
   <ItemGroup>
     <Content Update="SampleData\profiles.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -22,6 +24,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+
   <ItemGroup>
     <EmbeddedResource Include="SampleData\profiles.json">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
@@ -29,5 +32,9 @@
     <EmbeddedResource Include="SampleData\scores.json">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tailspin.SpaceGame.Web.Models" Version="1.0.0*-*" />
   </ItemGroup>
 </Project>
